@@ -81,6 +81,9 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.normal{
+  color: #777777
+}
 a:focus {
   outline: none;
 }
@@ -185,7 +188,7 @@ body {
 }
 
 a {
-  color: #006699;
+  color: white;
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   -ms-transition: all 150ms ease-in-out;
@@ -194,7 +197,7 @@ a {
   text-decoration: none !important;
 }
 a:hover {
-  color: #555555;
+  color:  #555555;
 }
 
 h1, h2, h3, h4, h5 {
@@ -601,7 +604,7 @@ h3.profile-title {
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #2a9df4;
+  background-color: #1EBBD7;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -612,7 +615,7 @@ h3.profile-title {
 }
 
 .bar.front::before{
-  background-color: #03254C;
+  background-color: #031F4B;
 }
 .bar.back::before{
   background-color: #187bcd;
