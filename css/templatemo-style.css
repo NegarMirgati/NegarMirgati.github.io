@@ -271,8 +271,8 @@ hr {
   width: 23%;
   height: 100%;
   position: fixed;
-  background-color: #3670cf;
-  color: white;
+  background-color: #007c41;
+  color: #ffdb05;
   overflow-y: hidden;
 }
 @media screen and (max-width: 1290px) {
@@ -299,9 +299,13 @@ hr {
   width: 100%;
 }
 
+.profile-description{
+  color: #ffdb05;
+}
+
 h3.profile-title {
   margin-bottom: 5px;
-  color: white;
+  color: #ffdb05;
   font-size: 18px;
   font-family: 'robotobold';
 }
@@ -315,7 +319,7 @@ h3.profile-title {
 .main-navigation li a {
   padding: 15px 40px;
   display: block;
-  color: white;
+  color: #ffdb05;
   font-size: 14px;
 }
 .main-navigation li a i {
@@ -596,7 +600,7 @@ h3.profile-title {
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #1EBBD7;
+  background-color: #00c811;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -607,10 +611,10 @@ h3.profile-title {
 }
 
 .bar.front::before{
-  background-color: #031F4B;
+  background-color: #ffdb05;
 }
 .bar.back::before{
-  background-color: #187bcd;
+  background-color: #007c41;
 }
 
 .bar.learning::before{
