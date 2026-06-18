@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Niki Mirgati, software engineer, ML researcher, and builder of production systems.">
+  <title>Niki Mirgati</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:none">
+    <symbol id="icon-lamp" viewBox="0 0 16 16">
+      <rect x="7" y="4" width="2" height="1" fill="#ede8df"/>
+      <rect x="4" y="5" width="8" height="1" fill="#dba045"/>
+      <rect x="5" y="6" width="6" height="2" fill="#dba045"/>
+      <rect x="6" y="8" width="4" height="3" fill="#c89038"/>
+      <rect x="7" y="11" width="2" height="2" fill="#8f6b2e"/>
+      <rect x="5" y="13" width="6" height="2" fill="#2e2a3a"/>
+    </symbol>
+    <symbol id="icon-book" viewBox="0 0 16 16">
+      <rect x="2" y="2" width="5" height="12" fill="#4a4060"/>
+      <rect x="3" y="3" width="3" height="10" fill="#a896d4"/>
+      <rect x="7" y="2" width="7" height="12" fill="#ede8df"/>
+      <rect x="8" y="4" width="5" height="1" fill="#a896d4"/>
+      <rect x="8" y="6" width="4" height="1" fill="#cbc4b8"/>
+      <rect x="8" y="8" width="5" height="1" fill="#cbc4b8"/>
+      <rect x="7" y="2" width="1" height="12" fill="#2e2a3a"/>
+    </symbol>
+    <symbol id="icon-chest" viewBox="0 0 16 16">
+      <rect x="3" y="6" width="10" height="7" fill="#8f6b2e"/>
+      <rect x="3" y="4" width="10" height="3" fill="#dba045"/>
+      <rect x="4" y="5" width="8" height="1" fill="#c89038"/>
+      <rect x="7" y="8" width="2" height="2" fill="#2e2a3a"/>
+      <rect x="2" y="13" width="12" height="1" fill="#2e2a3a"/>
+      <rect x="1" y="7" width="1" height="6" fill="#4a4060"/>
+      <rect x="14" y="7" width="1" height="6" fill="#4a4060"/>
+    </symbol>
+    <symbol id="icon-detective" viewBox="0 0 16 16">
+      <rect x="4" y="2" width="4" height="1" fill="#dba045"/>
+      <rect x="3" y="3" width="1" height="1" fill="#dba045"/>
+      <rect x="8" y="3" width="1" height="1" fill="#dba045"/>
+      <rect x="2" y="4" width="1" height="4" fill="#8f6b2e"/>
+      <rect x="9" y="4" width="1" height="4" fill="#8f6b2e"/>
+      <rect x="3" y="8" width="1" height="1" fill="#dba045"/>
+      <rect x="8" y="8" width="1" height="1" fill="#dba045"/>
+      <rect x="4" y="9" width="4" height="1" fill="#dba045"/>
+      <rect x="4" y="4" width="4" height="4" fill="#a896d4"/>
+      <rect x="5" y="5" width="2" height="2" fill="#ede8df"/>
+      <rect x="9" y="8" width="1" height="1" fill="#8f6b2e"/>
+      <rect x="10" y="9" width="1" height="1" fill="#8f6b2e"/>
+      <rect x="11" y="10" width="1" height="1" fill="#6b4a2a"/>
+      <rect x="12" y="11" width="1" height="1" fill="#6b4a2a"/>
+      <rect x="13" y="12" width="2" height="2" fill="#2e2a3a"/>
+    </symbol>
+    <symbol id="icon-mortarboard" viewBox="0 0 16 16">
+      <rect x="1" y="3" width="14" height="2" fill="#2e2a3a"/>
+      <rect x="2" y="3" width="12" height="1" fill="#4a4560"/>
+      <rect x="5" y="5" width="6" height="3" fill="#2e2a3a"/>
+      <rect x="4" y="8" width="8" height="2" fill="#2e2a3a"/>
+      <rect x="13" y="2" width="1" height="1" fill="#dba045"/>
+      <rect x="13" y="3" width="1" height="4" fill="#dba045"/>
+      <rect x="12" y="7" width="2" height="2" fill="#dba045"/>
+      <rect x="11" y="9" width="1" height="1" fill="#c89038"/>
+      <rect x="13" y="9" width="1" height="1" fill="#c89038"/>
+    </symbol>
+    <symbol id="icon-gamepad" viewBox="0 0 16 16">
+      <rect x="2" y="6" width="12" height="6" fill="#4a4560"/>
+      <rect x="1" y="7" width="1" height="4" fill="#4a4560"/>
+      <rect x="14" y="7" width="1" height="4" fill="#4a4560"/>
+      <rect x="4" y="8" width="2" height="2" fill="#2e2a3a"/>
+      <rect x="5" y="7" width="1" height="4" fill="#2e2a3a"/>
+      <rect x="3" y="9" width="4" height="1" fill="#2e2a3a"/>
+      <rect x="10" y="8" width="1" height="1" fill="#dba045"/>
+      <rect x="12" y="8" width="1" height="1" fill="#dba045"/>
+      <rect x="11" y="7" width="1" height="1" fill="#dba045"/>
+      <rect x="11" y="9" width="1" height="1" fill="#dba045"/>
+      <rect x="3" y="5" width="10" height="1" fill="#a896d4"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 16 16">
+      <rect x="2" y="4" width="12" height="9" fill="#ede8df"/>
+      <rect x="2" y="4" width="12" height="2" fill="#dba045"/>
+      <rect x="2" y="4" width="6" height="5" fill="#c89038"/>
+      <rect x="8" y="4" width="6" height="5" fill="#c89038"/>
+      <rect x="2" y="4" width="12" height="1" fill="#8f6b2e"/>
+      <rect x="7" y="10" width="2" height="3" fill="#a896d4"/>
+    </symbol>
+  </svg>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#" class="logo">
+      <svg class="pixel-icon pixel-icon-logo" aria-hidden="true"><use href="#icon-lamp"></use></svg>
+      <span>N.M.</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#beyond">Beyond</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-banner reveal">
+        <img
+          src="header.png"
+          alt="A cozy workspace at dusk with code on screen, books, piano keys, and a rainy city skyline"
+          width="1774"
+          height="887"
+        >
+      </div>
+      <div class="hero-body">
+        <div class="book-stage">
+          <article class="book-sheet">
+            <div class="section-inner hero-content">
+        <div class="hero-heading reveal">
+          <svg class="pixel-icon pixel-icon-hero" aria-hidden="true"><use href="#icon-lamp"></use></svg>
+          <div>
+            <p class="hero-eyebrow">Edmonton, Alberta</p>
+            <h1 class="hero-title">Niki Mirgati</h1>
+          </div>
+        </div>
+        <p class="hero-lead reveal">
+          I like to build things that ship, and I’m equally at home in the uncertain space
+          where new problems meet new ideas.
+        </p>
+        <div class="hero-links reveal">
+          <a href="https://www.linkedin.com/in/negar-niki-mirgati/" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <img class="pixel-icon pixel-icon-link" src="icons/linkedin.png" alt="" width="24" height="24" decoding="async">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/NegarMirgati" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <img class="pixel-icon pixel-icon-link" src="icons/github.png" alt="" width="24" height="24" decoding="async">
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:mirgati@ualberta.ca" class="link-chip">
+            <img class="pixel-icon pixel-icon-link pixel-icon-link-email" src="icons/email.png" alt="" width="24" height="15" decoding="async">
+            <span>Email</span>
+          </a>
+        </div>
+          </div>
+        </article>
+      </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-book"></use></svg>
+          <h2 class="section-label">About</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">
+            I’m a computer scientist who cares about both sides of the work:
+            the craft of building reliable, production-ready systems, and the
+            curiosity it takes to wander into unknown territory.
+          </p>
+          <div class="about-body">
+            <p>
+              My background spans backend development, machine learning research,
+              and translating cutting-edge methods into things people can actually use.
+              I’ve shipped Django APIs for healthcare workflows, taught game AI to
+              undergraduates, and spent years in research labs studying procedural
+              content generation, diffusion models, and how AI shows up in real products.
+            </p>
+            <p>
+              What ties it together is a belief that these aren’t opposing skills.
+              They’re complementary ones. Shipping teaches you what matters in practice.
+              Research teaches you what might matter next. I like working where those
+              two conversations meet.
+            </p>
+            <p>
+              I love exploring new fields and working on very different projects.
+              It’s my way of making every day different, fruitful, and memorable.
+            </p>
+          </div>
+        </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-chest"></use></svg>
+          <h2 class="section-label">Work Experience</h2>
+        </div>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2025 – 2026</span>
+              <span class="timeline-place">Smartech · Contract</span>
+            </div>
+            <h3>Software Engineer</h3>
+            <ul class="timeline-details">
+              <li>
+                Delivered backend features across Go, Python, and JVM-based services
+                (Kotlin/Java), adapting across diverse engineering environments.
+              </li>
+              <li>
+                Worked across a distributed stack including Kafka, ScyllaDB, Elasticsearch,
+                PostgreSQL, StarRocks, Temporal, and Grafana.
+              </li>
+              <li>
+                Maintained observability with Elastic APM and Grafana, and collaborated
+                with frontend developers, product owners, and customer success to ship
+                features that met technical and business needs.
+              </li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2025</span>
+              <span class="timeline-place">Amii · Edmonton</span>
+            </div>
+            <h3>AI Specialist</h3>
+            <p class="timeline-role">Course development · Program delivery</p>
+            <ul class="timeline-details">
+              <li>
+                Co-developed a Coursera course on generative AI and authored technical
+                content on diffusion models, reverse processes, and training dynamics.
+              </li>
+              <li>
+                Designed assessments and visualizations to reinforce understanding of
+                model architectures and real-world applications.
+              </li>
+              <li>
+                Led hands-on AI sessions for K–12 students across Edmonton public schools.
+              </li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2024 – 2025</span>
+              <span class="timeline-place">Amii · Edmonton</span>
+            </div>
+            <h3>AI Specialist</h3>
+            <p class="timeline-role">Client coaching · Course development · Project validation</p>
+            <ul class="timeline-details">
+              <li>
+                Researched and curated content on AI applications in medical sciences for
+                non-expert learners.
+              </li>
+              <li>
+                Coached industry partners on AI-driven solutions, investigating problem
+                backgrounds, success factors, and relevant literature with ML scientists.
+              </li>
+              <li>
+                Documented project paths forward, requirements, and ML approaches for
+                generative AI industry engagements.
+              </li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2025</span>
+              <span class="timeline-place">University of Alberta · Edmonton</span>
+            </div>
+            <h3>Research Assistant</h3>
+            <ul class="timeline-details">
+              <li>
+                Collaborated on a joint research project between the University of Alberta
+                and Mastercard.
+              </li>
+              <li>
+                Researched relevant literature and technical approaches to inform project
+                milestones.
+              </li>
+              <li>
+                Documented findings and supported coordination between university and
+                industry stakeholders.
+              </li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2020</span>
+              <span class="timeline-place">SynApps · Tehran</span>
+            </div>
+            <h3>Backend Developer</h3>
+            <ul class="timeline-details">
+              <li>
+                Built Django APIs for a clinic management platform supporting patient
+                queues, medical histories, lab results, and radiology reports.
+              </li>
+              <li>
+                Contributed to application API documentation for developers and
+                stakeholders.
+              </li>
+              <li>
+                Collaborated with medical students and software developers to ship features
+                clinicians actually used.
+              </li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2018</span>
+              <span class="timeline-place">IPM · Tehran</span>
+            </div>
+            <h3>Summer Research Intern</h3>
+            <ul class="timeline-details">
+              <li>
+                Developed nature-inspired optimization algorithms for virtual machine
+                placement.
+              </li>
+              <li>
+                Evaluated algorithm performance across benchmark scenarios and documented
+                results.
+              </li>
+              <li>
+                Supported the research pipeline with analysis that tied ideas to measurable
+                outcomes.
+              </li>
+            </ul>
+          </li>
+        </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-detective"></use></svg>
+          <h2 class="section-label">Research</h2>
+        </div>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2022 – 2024</span>
+              <span class="timeline-place">University of Alberta</span>
+            </div>
+            <h3>Graduate Research Assistant</h3>
+            <p>
+              Master’s research in procedural content generation for games (PCGML),
+              supervised by Dr. Matthew Guzdial. Studied joint level generation and
+              translation for 2D platformers using deep learning on gameplay video.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2023 – 2024</span>
+              <span class="timeline-place">University of Alberta</span>
+            </div>
+            <h3>Game Design Micro-Credential</h3>
+            <p>
+              Helped develop an industry-facing micro-credential course alongside game
+              developers and artists, covering tutorialization, progression, quests,
+              and multiplayer design.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2019 – 2020</span>
+              <span class="timeline-place">University of Tehran</span>
+            </div>
+            <h3>Undergraduate Thesis</h3>
+            <p>
+              Implemented a rule-based chatbot for the Moodle learning management system
+              under Dr. Omid Fatemi, bridging NLP concepts with a system real students
+              would interact with.
+            </p>
+          </li>
+        </ul>
+
+        <div class="publication">
+          <h3 class="publication-title">Selected Publication</h3>
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/10333193"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="publication-link"
+          >
+            Joint Level Generation and Translation Using Gameplay Videos
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-mortarboard"></use></svg>
+          <h2 class="section-label">Education</h2>
+        </div>
+        <ul class="edu-list">
+          <li class="edu-item">
+            <div class="edu-degree">M.Sc. Computer Science</div>
+            <div class="edu-school">University of Alberta</div>
+            <div class="edu-detail">2021 – 2024 · Focus on machine learning & AI</div>
+          </li>
+          <li class="edu-item">
+            <div class="edu-degree">B.Sc. Computer Engineering</div>
+            <div class="edu-school">University of Tehran</div>
+            <div class="edu-detail">2015 – 2020 · Hardware major, CS at heart</div>
+          </li>
+          <li class="edu-item">
+            <div class="edu-degree">Mathematics</div>
+            <div class="edu-school">Farzanegan Sari · NODET</div>
+            <div class="edu-detail">National Organization for Development of Exceptional Talents</div>
+          </li>
+        </ul>
+
+        <div class="skills">
+          <p class="skills-label">Areas I keep returning to</p>
+          <ul class="skills-tags">
+            <li>Machine Learning</li>
+            <li>Generative AI</li>
+            <li>Backend Systems</li>
+            <li>Game AI</li>
+            <li>Algorithms</li>
+            <li>Graph Theory</li>
+          </ul>
+        </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="beyond" class="section section-beyond">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-gamepad"></use></svg>
+          <h2 class="section-label">Off the clock</h2>
+        </div>
+        <blockquote class="beyond-quote">
+          <p>
+            When I’m not debugging or reading papers, you’ll probably find me chipping
+            away at French (B1 is next), a classical novel half-finished on my nightstand,
+            an anime episode queued up “just one more,” or a playlist of classical,
+            instrumental, and Persian traditional music playing in the background.
+          </p>
+          <p>
+            I think good engineering and good art share something: patience, attention
+            to detail, and the willingness to sit with something until it reveals itself.
+            Maybe that’s why I like both.
+          </p>
+        </blockquote>
+
+        <div class="beyond-grid">
+          <article class="beyond-card">
+            <h3 class="beyond-card-title">Reading</h3>
+            <p class="beyond-card-lead">
+              <a href="https://www.goodreads.com/user/show/21777379-negar-m" target="_blank" rel="noopener noreferrer">280 books</a>
+              on my Goodreads shelves, with a soft spot for classical novels and the
+              kind of fiction that rewards slow reading.
+            </p>
+            <ul class="beyond-stats">
+              <li><span class="beyond-stat-num">244</span> ratings</li>
+              <li><span class="beyond-stat-num">14</span> reviews</li>
+            </ul>
+            <figure class="beyond-favorite">
+              <a
+                href="https://www.goodreads.com/book/show/4935.The_Brothers_Karamazov"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="beyond-favorite-cover"
+              >
+                <img
+                  src="images/brothers-karamazov.jpg"
+                  alt="Cover of The Brothers Karamazov by Fyodor Dostoyevsky"
+                  width="440"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <figcaption class="beyond-favorite-caption">
+                <span class="beyond-favorite-label">Current favorite</span>
+                <cite class="beyond-favorite-title">The Brothers Karamazov</cite>
+                <span class="beyond-favorite-author">Fyodor Dostoyevsky</span>
+              </figcaption>
+            </figure>
+            <a
+              href="https://www.goodreads.com/user/show/21777379-negar-m"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="beyond-profile-link link-chip"
+            >
+              <img class="pixel-icon pixel-icon-link" src="icons/goodreads.png" alt="" width="24" height="24" decoding="async">
+              <span>Goodreads profile</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="beyond-card">
+            <h3 class="beyond-card-title">Listening</h3>
+            <p class="beyond-card-lead">
+              <a href="https://open.spotify.com/user/negar_mrgt97" target="_blank" rel="noopener noreferrer">100 public playlists</a>
+              on Spotify: santoor and taar, Shajarian and Motamedi, Mazandarani folk,
+              plus the occasional TV soundtrack rabbit hole.
+            </p>
+            <ul class="beyond-playlists">
+              <li>
+                <a href="https://open.spotify.com/playlist/1WDYb94bcRFeblf1qFPHwm" target="_blank" rel="noopener noreferrer">
+                  Santoor <span lang="fa">سنتور</span>
+                </a>
+                <span class="beyond-playlist-note">Kamkar, Meshkatian, Payvar</span>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/playlist/6S8ntUMt312TH491WzCzvh" target="_blank" rel="noopener noreferrer">
+                  Taar <span lang="fa">تار</span>
+                </a>
+                <span class="beyond-playlist-note">Alizadeh, Shahnaz, Sharif</span>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/playlist/1p0Zl0vvxV9m6HikI3sLiM" target="_blank" rel="noopener noreferrer">
+                  The Big Bang Theory
+                </a>
+                <span class="beyond-playlist-note">yes, really</span>
+              </li>
+            </ul>
+            <a
+              href="https://open.spotify.com/user/negar_mrgt97"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="beyond-profile-link link-chip"
+            >
+              <img class="pixel-icon pixel-icon-link" src="icons/spotify.png" alt="" width="24" height="24" decoding="async">
+              <span>Spotify profile</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+        </div>
+
+        <div class="beyond-embed">
+          <iframe
+            style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/1WDYb94bcRFeblf1qFPHwm?utm_source=generator"
+            width="100%"
+            height="152"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Santoor playlist on Spotify"
+          ></iframe>
+        </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="book-stage">
+        <article class="book-sheet">
+          <div class="section-inner">
+        <div class="section-heading">
+          <svg class="pixel-icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+          <h2 class="section-label">Say hello</h2>
+        </div>
+        <p class="contact-lead">
+          Open to conversations about ML, systems, games, and the space between
+          research and production.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:mirgati@ualberta.ca" class="contact-btn link-chip">
+            <img class="pixel-icon pixel-icon-link pixel-icon-link-email" src="icons/email.png" alt="" width="24" height="15" decoding="async">
+            <span>mirgati@ualberta.ca</span>
+          </a>
+          <a href="https://www.linkedin.com/in/negar-niki-mirgati/" target="_blank" rel="noopener noreferrer" class="contact-link link-chip">
+            <img class="pixel-icon pixel-icon-link" src="icons/linkedin.png" alt="" width="24" height="24" decoding="async">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/NegarMirgati" target="_blank" rel="noopener noreferrer" class="contact-link link-chip">
+            <img class="pixel-icon pixel-icon-link" src="icons/github.png" alt="" width="24" height="24" decoding="async">
+            <span>GitHub</span>
+          </a>
+        </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Niki Mirgati</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
