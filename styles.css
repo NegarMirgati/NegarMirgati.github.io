@@ -163,6 +163,29 @@ h3.publication-title {
   margin-top: 0.15rem;
 }
 
+.hero-portrait {
+  flex-shrink: 0;
+  margin: 0.15rem 0 0;
+  padding: 3px;
+  background: var(--accent);
+  line-height: 0;
+  box-shadow:
+    3px 3px 0 #1e1b28,
+    inset -2px -2px 0 var(--accent-hover),
+    inset 2px 2px 0 #f0d080;
+}
+
+.hero-portrait img {
+  display: block;
+  width: 128px;
+  height: 128px;
+  max-width: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
 .section-heading {
   display: flex;
   align-items: center;
