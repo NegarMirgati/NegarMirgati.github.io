@@ -87,6 +87,26 @@
       <rect x="2" y="4" width="12" height="1" fill="#8f6b2e"/>
       <rect x="7" y="10" width="2" height="3" fill="#a896d4"/>
     </symbol>
+    <symbol id="icon-paper" viewBox="0 0 16 16">
+      <rect x="3" y="2" width="9" height="12" fill="#ede8df"/>
+      <rect x="3" y="2" width="9" height="1" fill="#cbc4b8"/>
+      <rect x="3" y="13" width="9" height="1" fill="#cbc4b8"/>
+      <rect x="3" y="2" width="1" height="12" fill="#cbc4b8"/>
+      <rect x="11" y="2" width="1" height="12" fill="#cbc4b8"/>
+      <rect x="5" y="4" width="5" height="1" fill="#dba045"/>
+      <rect x="5" y="6" width="6" height="1" fill="#a896d4"/>
+      <rect x="5" y="8" width="6" height="1" fill="#cbc4b8"/>
+      <rect x="5" y="10" width="4" height="1" fill="#cbc4b8"/>
+    </symbol>
+    <symbol id="icon-video" viewBox="0 0 16 16">
+      <rect x="2" y="3" width="12" height="9" fill="#2e2a3a"/>
+      <rect x="3" y="4" width="10" height="7" fill="#4a4560"/>
+      <rect x="6" y="5" width="1" height="5" fill="#dba045"/>
+      <rect x="7" y="6" width="1" height="3" fill="#dba045"/>
+      <rect x="8" y="7" width="1" height="1" fill="#dba045"/>
+      <rect x="5" y="12" width="6" height="1" fill="#8f6b2e"/>
+      <rect x="6" y="13" width="4" height="1" fill="#8f6b2e"/>
+    </symbol>
   </svg>
 
   <div class="grain" aria-hidden="true"></div>
@@ -107,6 +127,48 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
+  <nav class="roadmap" aria-label="Section progress">
+    <ol class="roadmap-track">
+      <li class="roadmap-fill-wrap" aria-hidden="true"><span class="roadmap-fill"></span></li>
+      <li class="roadmap-stop">
+        <a href="#about" data-target="about">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-book"></use></svg></span>
+          <span class="roadmap-label">About</span>
+        </a>
+      </li>
+      <li class="roadmap-stop">
+        <a href="#experience" data-target="experience">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-chest"></use></svg></span>
+          <span class="roadmap-label">Experience</span>
+        </a>
+      </li>
+      <li class="roadmap-stop">
+        <a href="#research" data-target="research">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-detective"></use></svg></span>
+          <span class="roadmap-label">Research</span>
+        </a>
+      </li>
+      <li class="roadmap-stop">
+        <a href="#education" data-target="education">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-mortarboard"></use></svg></span>
+          <span class="roadmap-label">Education</span>
+        </a>
+      </li>
+      <li class="roadmap-stop">
+        <a href="#beyond" data-target="beyond">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-gamepad"></use></svg></span>
+          <span class="roadmap-label">Beyond</span>
+        </a>
+      </li>
+      <li class="roadmap-stop">
+        <a href="#contact" data-target="contact">
+          <span class="roadmap-node"><svg class="pixel-icon" aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+          <span class="roadmap-label">Contact</span>
+        </a>
+      </li>
+    </ol>
+  </nav>
 
   <main>
     <section class="hero">
@@ -397,15 +459,29 @@
 
         <div class="publication">
           <h3 class="publication-title">Selected Publication</h3>
-          <a
-            href="https://ieeexplore.ieee.org/abstract/document/10333193"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="publication-link"
-          >
-            Joint Level Generation and Translation Using Gameplay Videos
-            <span class="arrow" aria-hidden="true">→</span>
-          </a>
+          <p class="publication-name">Joint Level Generation and Translation Using Gameplay Videos</p>
+          <div class="publication-links">
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/10333193"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="publication-resource"
+            >
+              <svg class="pixel-icon" aria-hidden="true"><use href="#icon-paper"></use></svg>
+              Read paper
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1IcrSHfyZ95vOIVDwBtH-t67NkpV-heDj/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="publication-resource"
+            >
+              <svg class="pixel-icon" aria-hidden="true"><use href="#icon-video"></use></svg>
+              Watch video
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
           </div>
         </article>
