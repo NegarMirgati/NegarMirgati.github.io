@@ -1,0 +1,6 @@
+/* Pixel-art profile: avoid soft scaling and WebP blur */
+.profile figure img,
+.profile img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
