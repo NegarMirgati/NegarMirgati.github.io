@@ -1,0 +1,5 @@
+/* Profile photo: keep natural JPEG sharpness (no pixel-art scaling) */
+.profile figure img,
+.profile img {
+  image-rendering: auto;
+}
